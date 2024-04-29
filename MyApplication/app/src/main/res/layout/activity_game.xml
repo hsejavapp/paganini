@@ -1,0 +1,678 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <GridLayout
+        android:id="@+id/letterGrid"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:padding="50dp"
+        android:rowCount="6"
+        android:columnCount="5" >
+
+
+        <TextView
+            android:id="@+id/rectangle11"
+            android:layout_width="0dp"
+            android:layout_columnWeight="1"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_margin="5dp"
+            android:background="@color/grey"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="34sp" />
+
+        <TextView
+            android:id="@+id/rectangle12"
+            android:layout_width="0dp"
+            android:layout_columnWeight="1"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_margin="5dp"
+            android:background="@color/grey"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="34sp" />
+
+        <TextView
+            android:id="@+id/rectangle13"
+            android:layout_width="0dp"
+            android:layout_columnWeight="1"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_margin="5dp"
+            android:background="@color/grey"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="34sp" />
+
+        <TextView
+            android:id="@+id/rectangle14"
+            android:layout_width="0dp"
+            android:layout_columnWeight="1"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_margin="5dp"
+            android:background="@color/grey"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="34sp" />
+
+        <TextView
+            android:id="@+id/rectangle15"
+            android:layout_width="0dp"
+            android:layout_columnWeight="1"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_margin="5dp"
+            android:background="@color/grey"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="34sp" />
+
+
+        <TextView
+            android:id="@+id/rectangle21"
+            android:layout_width="0dp"
+            android:layout_columnWeight="1"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_margin="5dp"
+            android:background="@color/grey"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="34sp" />
+
+        <TextView
+            android:id="@+id/rectangle22"
+            android:layout_width="0dp"
+            android:layout_columnWeight="1"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_margin="5dp"
+            android:background="@color/grey"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="34sp" />
+
+        <TextView
+            android:id="@+id/rectangle23"
+            android:layout_width="0dp"
+            android:layout_columnWeight="1"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_margin="5dp"
+            android:background="@color/grey"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="34sp" />
+
+        <TextView
+            android:id="@+id/rectangle24"
+            android:layout_width="0dp"
+            android:layout_columnWeight="1"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_margin="5dp"
+            android:background="@color/grey"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="34sp" />
+
+        <TextView
+            android:id="@+id/rectangle25"
+            android:layout_width="0dp"
+            android:layout_columnWeight="1"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_margin="5dp"
+            android:background="@color/grey"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="34sp" />
+
+
+        <TextView
+            android:id="@+id/rectangle31"
+            android:layout_width="0dp"
+            android:layout_columnWeight="1"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_margin="5dp"
+            android:background="@color/grey"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="34sp" />
+
+        <TextView
+            android:id="@+id/rectangle32"
+            android:layout_width="0dp"
+            android:layout_columnWeight="1"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_margin="5dp"
+            android:background="@color/grey"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="34sp" />
+
+        <TextView
+            android:id="@+id/rectangle33"
+            android:layout_width="0dp"
+            android:layout_columnWeight="1"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_margin="5dp"
+            android:background="@color/grey"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="34sp" />
+
+        <TextView
+            android:id="@+id/rectangle34"
+            android:layout_width="0dp"
+            android:layout_columnWeight="1"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_margin="5dp"
+            android:background="@color/grey"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="34sp" />
+
+        <TextView
+            android:id="@+id/rectangle35"
+            android:layout_width="0dp"
+            android:layout_columnWeight="1"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_margin="5dp"
+            android:background="@color/grey"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="34sp" />
+
+
+        <TextView
+            android:id="@+id/rectangle41"
+            android:layout_width="0dp"
+            android:layout_columnWeight="1"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_margin="5dp"
+            android:background="@color/grey"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="34sp" />
+
+        <TextView
+            android:id="@+id/rectangle42"
+            android:layout_width="0dp"
+            android:layout_columnWeight="1"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_margin="5dp"
+            android:background="@color/grey"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="34sp" />
+
+        <TextView
+            android:id="@+id/rectangle43"
+            android:layout_width="0dp"
+            android:layout_columnWeight="1"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_margin="5dp"
+            android:background="@color/grey"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="34sp" />
+
+        <TextView
+            android:id="@+id/rectangle44"
+            android:layout_width="0dp"
+            android:layout_columnWeight="1"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_margin="5dp"
+            android:background="@color/grey"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="34sp" />
+
+        <TextView
+            android:id="@+id/rectangle45"
+            android:layout_width="0dp"
+            android:layout_columnWeight="1"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_margin="5dp"
+            android:background="@color/grey"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="34sp" />
+
+
+        <TextView
+            android:id="@+id/rectangle51"
+            android:layout_width="0dp"
+            android:layout_columnWeight="1"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_margin="5dp"
+            android:background="@color/grey"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="34sp" />
+
+        <TextView
+            android:id="@+id/rectangle52"
+            android:layout_width="0dp"
+            android:layout_columnWeight="1"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_margin="5dp"
+            android:background="@color/grey"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="34sp" />
+
+        <TextView
+            android:id="@+id/rectangle53"
+            android:layout_width="0dp"
+            android:layout_columnWeight="1"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_margin="5dp"
+            android:background="@color/grey"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="34sp" />
+
+        <TextView
+            android:id="@+id/rectangle54"
+            android:layout_width="0dp"
+            android:layout_columnWeight="1"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_margin="5dp"
+            android:background="@color/grey"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="34sp" />
+
+        <TextView
+            android:id="@+id/rectangle55"
+            android:layout_width="0dp"
+            android:layout_columnWeight="1"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_margin="5dp"
+            android:background="@color/grey"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="34sp" />
+
+
+        <TextView
+            android:id="@+id/rectangle61"
+            android:layout_width="0dp"
+            android:layout_columnWeight="1"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_margin="5dp"
+            android:background="@color/grey"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="34sp" />
+
+        <TextView
+            android:id="@+id/rectangle62"
+            android:layout_width="0dp"
+            android:layout_columnWeight="1"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_margin="5dp"
+            android:background="@color/grey"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="34sp" />
+
+        <TextView
+            android:id="@+id/rectangle63"
+            android:layout_width="0dp"
+            android:layout_columnWeight="1"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_margin="5dp"
+            android:background="@color/grey"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="34sp" />
+
+        <TextView
+            android:id="@+id/rectangle64"
+            android:layout_width="0dp"
+            android:layout_columnWeight="1"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_margin="5dp"
+            android:background="@color/grey"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="34sp" />
+
+        <TextView
+            android:id="@+id/rectangle65"
+            android:layout_width="0dp"
+            android:layout_columnWeight="1"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_margin="5dp"
+            android:background="@color/grey"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="34sp" />
+
+    </GridLayout>
+
+
+    <!-- Клавиатура -->
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        tools:ignore="HardcodedText" >
+
+        <TableRow android:layout_width="match_parent">
+
+            <Button
+                android:id="@+id/btnLetter1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="11sp"
+                android:text="Й" />
+
+            <Button
+                android:id="@+id/btnLetter2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="11sp"
+                android:text="Ц" />
+
+            <Button
+                android:id="@+id/btnLetter3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="11sp"
+                android:text="У" />
+
+            <Button
+                android:id="@+id/btnLetter4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="11sp"
+                android:text="К" />
+
+            <Button
+                android:id="@+id/btnLetter5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="11sp"
+                android:text="Е" />
+
+            <Button
+                android:id="@+id/btnLetter6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="11sp"
+                android:text="Н" />
+
+            <Button
+                android:id="@+id/btnLetter7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="11sp"
+                android:text="Г" />
+
+            <Button
+                android:id="@+id/btnLetter8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="11sp"
+                android:text="Ш" />
+
+            <Button
+                android:id="@+id/btnLetter9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="11sp"
+                android:text="Щ" />
+
+            <Button
+                android:id="@+id/btnLetter10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="11sp"
+                android:text="З" />
+
+            <Button
+                android:id="@+id/btnLetter11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="11sp"
+                android:text="Х" />
+
+        </TableRow>
+
+        <TableRow android:layout_width="match_parent">
+
+            <Button
+                android:id="@+id/btnLetter12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="11sp"
+                android:text="Ф" />
+
+            <Button
+                android:id="@+id/btnLetter13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="11sp"
+                android:text="Ы" />
+
+            <Button
+                android:id="@+id/btnLetter14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="11sp"
+                android:text="В" />
+
+            <Button
+                android:id="@+id/btnLetter15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="11sp"
+                android:text="А" />
+
+            <Button
+                android:id="@+id/btnLetter16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="11sp"
+                android:text="П" />
+
+            <Button
+                android:id="@+id/btnLetter17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="11sp"
+                android:text="Р" />
+
+            <Button
+                android:id="@+id/btnLetter18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="11sp"
+                android:text="О" />
+
+            <Button
+                android:id="@+id/btnLetter19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="11sp"
+                android:text="Л" />
+
+            <Button
+                android:id="@+id/btnLetter20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="11sp"
+                android:text="Д" />
+
+            <Button
+                android:id="@+id/btnLetter21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="11sp"
+                android:text="Ж" />
+
+            <Button
+                android:id="@+id/btnLetter22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="11sp"
+                android:text="Э" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent" >
+
+            <Button
+                android:id="@+id/btnLetter23"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="11sp"
+                android:text="" />
+
+            <Button
+                android:id="@+id/btnLetter24"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="11sp"
+                android:text="Я" />
+
+            <Button
+                android:id="@+id/btnLetter25"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="11sp"
+                android:text="Ч" />
+
+            <Button
+                android:id="@+id/btnLetter26"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="11sp"
+                android:text="С" />
+
+            <Button
+                android:id="@+id/btnLetter27"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="11sp"
+                android:text="М" />
+
+            <Button
+                android:id="@+id/btnLetter28"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="11sp"
+                android:text="И" />
+
+            <Button
+                android:id="@+id/btnLetter29"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="11sp"
+                android:text="Т" />
+
+            <Button
+                android:id="@+id/btnLetter30"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="11sp"
+                android:text="Ь" />
+
+            <Button
+                android:id="@+id/btnLetter31"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="11sp"
+                android:text="Б" />
+
+            <Button
+                android:id="@+id/btnLetter32"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="11sp"
+                android:text="Ю" />
+
+            <ImageButton
+                android:id="@+id/btnDelete"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textSize="11sp"
+                android:src="@drawable/backspace" />
+
+        </TableRow>
+
+    </TableLayout>
+
+    <Button
+        android:id="@+id/btnExit"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="@string/btnExit" />
+
+</LinearLayout>
