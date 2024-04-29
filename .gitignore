@@ -1,0 +1,6 @@
+**/target/
+.vscode/
+*/resources/*.yaml
+!*/resources/example_telegram.yaml
+!*/resources/example_postgres.yaml
+*.zip
