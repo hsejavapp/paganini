@@ -102,11 +102,6 @@ public class HTTPServer {
     }
 
     private static void initializeDatabase() {
-        // try {
-        //     Thread.sleep(1000);
-        // } catch (InterruptedException e) {
-        //     e.printStackTrace();
-        // }
         try {
             connection.prepareStatement("CREATE TABLE IF NOT EXISTS words (word VARCHAR(255) PRIMARY KEY)").execute();
             connection.prepareStatement("INSERT INTO words (word) VALUES ('арбуз')").execute();

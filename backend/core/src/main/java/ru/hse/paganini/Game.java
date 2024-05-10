@@ -69,11 +69,6 @@ public class Game {
 
         System.err.println(wordChars);
         System.err.println(rightWordChars);
-        System.err.println(wordChars.get(0));
-        System.err.println(wordChars.get(1));
-        System.err.println(wordChars.get(2));
-        System.err.println(wordChars.get(3));
-        System.err.println(wordChars.get(4));
 
         for (int i = 0; i < 5; i++) {
             if (wordChars.get(i) == null)
