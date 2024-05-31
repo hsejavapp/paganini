@@ -4,3 +4,22 @@
 !*/resources/example_telegram.yaml
 !*/resources/example_postgres.yaml
 *.zip
+**.idea
+
+
+# from android project
+/MyApplication/*.iml
+/MyApplication/.gradle
+/MyApplication/local.properties
+/MyApplication/.idea/caches
+/MyApplication/.idea/libraries
+/MyApplication/.idea/modules.xml
+/MyApplication/.idea/workspace.xml
+/MyApplication/.idea/navEditor.xml
+/MyApplication/.idea/assetWizardSettings.xml
+/MyApplication/.DS_Store
+/MyApplication/build
+/MyApplication/captures
+/MyApplication/.externalNativeBuild
+/MyApplication/.cxx
+/MyApplication/local.properties
