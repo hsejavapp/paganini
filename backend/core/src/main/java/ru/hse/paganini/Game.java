@@ -3,25 +3,27 @@ package ru.hse.paganini;
 import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.HashMap;
 import java.util.List;
 import java.util.stream.Collectors;
 
 
 public class Game {
-    public Connection connection;
     private Status status = Status.PROCESSING;
     private int attemptsCnt = 0;
     private String rightWord;
+    DatabaseConnection database;
 
-    public Game(Connection connection) {
-        this.connection = connection;
-        rightWord = getWord();
+    public Game(DatabaseConnection database_) {
+        database = database_;
     }
     
-    public String getWord() {
+    public String getWord(String type_) {
+        String dataset = type_.equals("usual") ? "words_usual" : "words_rare";
         try {
-            ResultSet rs = connection.prepareStatement("SELECT word FROM words ORDER BY RANDOM() LIMIT 1").executeQuery();
-            return rs.next() ? rs.getString("word") : null;
+            ResultSet rs = database.getConnection().prepareStatement("SELECT word FROM " + dataset + " ORDER BY RANDOM() LIMIT 1").executeQuery();
+            rightWord = rs.next() ? rs.getString("word") : null;
+            return rightWord;
         } catch (SQLException e) {
             System.err.println("Query failed");
             e.printStackTrace();
@@ -37,7 +39,7 @@ public class Game {
         try {
             if (word.length() != 5)
                 return false;
-            return connection.prepareStatement("SELECT word FROM words WHERE word = '" + word + "'").executeQuery().next();
+            return database.getConnection().prepareStatement("SELECT word FROM words_rare WHERE word = '" + word + "'").executeQuery().next();
         } catch (SQLException e) {
             e.printStackTrace();
             return false;
@@ -45,8 +47,6 @@ public class Game {
     }
 
     public String getCollisions(String word) {
-        // хз, какие правила у игры, но я напишу так, как я их представляю
-
         // проверяем, что слово валидное
         if (!validateWord(word))
             return "";
@@ -82,8 +82,6 @@ public class Game {
                     rightWordChars.set(j, null);
                     wordChars.set(i, null);
                     break;
-                } else {
-                    System.err.println(rightWordChars.get(j) + " != " + wordChars.get(i));
                 }
             }
         }
@@ -92,12 +90,4 @@ public class Game {
         System.err.println(new String(collisions));
         return new String(collisions);
     }
-
-    public Status sendStatus() {
-        // кидаем DEFEAT или VICTORY, чтобы показать в приложении окошко
-        // TODO: сделать это))))
-        return null;
-    }    
 }
-
-
